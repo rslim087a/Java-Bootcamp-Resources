@@ -9,7 +9,7 @@ public class TicTacToe {
 
             //Task 1: Create an array with three rows of '_' characters.
 
-            //Task 2: Call the function printArray();
+            //Task 2: Call the function printBoard();
 
              
               /*
