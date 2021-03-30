@@ -107,14 +107,14 @@ public class TicTacToe {
 
         int row = scan.nextInt();
         int column = scan.nextInt();
-        int[] spot = {row, column};
 
         while (board[row][column] != ('_')){
             System.out.print("Spot taken, try again: ");
             row = scan.nextInt();
             column = scan.nextInt();
         }
-
+        
+        int[] spot = {row, column};
         return spot; 
     }
 
