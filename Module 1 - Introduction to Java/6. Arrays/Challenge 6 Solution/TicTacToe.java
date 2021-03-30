@@ -107,6 +107,7 @@ public class TicTacToe {
 
         int row = scan.nextInt();
         int column = scan.nextInt();
+        int[] spot = {row, column};
 
         while (board[row][column] != ('_')){
             System.out.print("Spot taken, try again: ");
@@ -114,7 +115,7 @@ public class TicTacToe {
             column = scan.nextInt();
         }
 
-        return new int[]{row, column}; 
+        return spot; 
     }
 
     /** Task 6 - Write a function that determines the winner
