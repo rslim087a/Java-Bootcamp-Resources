@@ -6,10 +6,10 @@ public class JavaDraw {
         Scanner scan = new Scanner(System.in);
         int choice;
 
-		System.out.print( "\nWhich animal would you like to draw?\n" );
+	System.out.print( "\nWhich animal would you like to draw?\n" );
         System.out.println( "Write 1 for butterfly " );
-		System.out.println( "Write 2 for elephant  " );
-		System.out.println( "Write 3 for bear      " );
+	System.out.println( "Write 2 for elephant  " );
+	System.out.println( "Write 3 for bear      " );
         System.out.println( "Write 4 for snake     " );
 
         //Task 1 – Pick up the user's choice.
