@@ -14,8 +14,8 @@ public class Machine {
         return new Item(this.items[row][spot]);
     }
     
-    public void setItem(int row, int spot) {
-        this.items[row][spot] = new Item(items[row][spot]);
+    public void setItem(Item item, int row, int spot) {
+        this.items[row][spot] = new Item(item);
     }
 
     public boolean dispense(int row, int spot) {
