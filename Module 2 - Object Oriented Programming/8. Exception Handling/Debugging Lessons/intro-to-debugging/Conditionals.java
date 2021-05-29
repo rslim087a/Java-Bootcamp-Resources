@@ -2,7 +2,7 @@ public class Conditionals {
     public static void main(String[] args) {
         String option = "";
 
-        int random = (int) Math.random() + 1 * 3;
+        int random = (int) Math.random() * 1 + 3;
         
         switch (random) {
             case 1: option = "hit"; 
