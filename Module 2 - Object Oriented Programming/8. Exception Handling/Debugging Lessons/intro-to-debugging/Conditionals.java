@@ -15,7 +15,7 @@ public class Conditionals {
         if (!option.equals("hit") || !option.equals("stay")) {
             System.out.println("fold");
         } else {
-            System.out.println(); 
+            System.out.println(option); 
        } 
     }
 }
