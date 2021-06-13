@@ -19,7 +19,6 @@ public class Employee {
         return position;
     }
 
-    @Override
     public String toString() {
 
         return "\tName: " + name + "\tPosition: " + this.position + "\n";
