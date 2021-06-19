@@ -1,0 +1,7 @@
+Pepsi=1.99;Crush=1.99;Coca Cola=1.99
+Honey Oats=3.99;Fruit Loops=1.99;Cheerios=2.99
+Milk=4.99;Eggs=0.99;Cheese=1.89
+Pepperoni=2.99;Salami=4.49;Mortadella=4.99
+Celery=0.99;Spinach=0.99;Coriander=1.29
+Shirt=12.99;Pants=24.99;Sweater=18.99
+Phone=549.99;Printer=349.99;Television=1099
