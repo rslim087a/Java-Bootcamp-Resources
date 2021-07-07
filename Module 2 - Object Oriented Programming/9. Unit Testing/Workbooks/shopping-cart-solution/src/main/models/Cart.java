@@ -5,6 +5,7 @@ import java.util.ArrayList;
 
 public class Cart {
     ArrayList<Item> items;
+    private static double TAX_RATE = 0.13;
 
     public Cart() {
         this.items = new ArrayList<Item>();
@@ -47,7 +48,7 @@ public class Cart {
 
     public double getTax(double subtotal) {
         DecimalFormat formatter = new DecimalFormat("#.##");
-        return Double.parseDouble(formatter.format(subtotal * 0.13));
+        return Double.parseDouble(formatter.format(subtotal * TAX_RATE));
     }
 
     public double getTotal(double subtotal, double tax) {
