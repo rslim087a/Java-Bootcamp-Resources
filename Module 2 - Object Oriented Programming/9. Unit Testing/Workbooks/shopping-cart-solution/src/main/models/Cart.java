@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class Cart {
     ArrayList<Item> items;
-    private static double TAX_RATE = 0.13;
+    private static final double TAX_RATE = 0.13;
 
     public Cart() {
         this.items = new ArrayList<Item>();
