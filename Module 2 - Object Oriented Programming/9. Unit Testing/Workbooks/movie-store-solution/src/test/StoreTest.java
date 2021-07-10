@@ -37,6 +37,14 @@ public class StoreTest {
         store.rentMovie("The Godfather");
         assertFalse(store.getMovie(1).isAvailable());
     }
+    
+    @Test
+    public void returnMovieTest() {
+        store.rentMovie("The Godfather");
+        store.returnMovie("The Godfather");
+        assertTrue(store.getMovie(1).isAvailable());
+    }
+
 
     @Test(expected = IllegalStateException.class)
     public void movieNotInStock() {
