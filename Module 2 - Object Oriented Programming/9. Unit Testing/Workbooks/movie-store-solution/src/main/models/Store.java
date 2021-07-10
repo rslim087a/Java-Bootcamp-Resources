@@ -44,6 +44,10 @@ public class Store {
         this.movies.get(getMovieIndex(name)).setAvailable(false);
     }
 
+    public void returnMovie(String name) {
+        this.movies.get(getMovieIndex(name)).setAvailable(true);
+    }
+
     public String toString() {
         String temp = "";
         for (int i = 0; i < this.movies.size(); i++) {
