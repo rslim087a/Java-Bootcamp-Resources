@@ -1,4 +1,4 @@
-package test;
+package src.test;
 
 public class TeamTest {
     
