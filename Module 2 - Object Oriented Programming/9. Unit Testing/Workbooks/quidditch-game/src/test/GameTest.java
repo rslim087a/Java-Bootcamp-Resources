@@ -1,5 +1,5 @@
-package test;
-import main.models.Game;
+package src.test;
+import src.main.models.Game;
 
 
 public class GameTest {
