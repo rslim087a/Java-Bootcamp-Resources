@@ -1,5 +1,5 @@
-package main;
-import main.models.Game;
+package src.main;
+import src.main.models.Game;
 
 public class Main {
 
