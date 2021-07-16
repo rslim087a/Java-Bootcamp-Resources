@@ -1,6 +1,7 @@
 public class Employee {
     private String name;
     private String position;
+    static int hiredCount; 
 
     public Employee(String name, String position) {
         this.name = name;
