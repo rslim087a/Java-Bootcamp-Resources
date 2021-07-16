@@ -1,4 +1,4 @@
-package main.models;
+package src.main.models;
 
 public class Team {
 
