@@ -30,6 +30,6 @@ public class Employee {
 
     public String toString() {
 
-        return "\tName: " + name + "\tPosition: " + this.position + "\tCompany: " + COMPANY_NAME + "\n";
+        return "\tName: " + name + "\tPosition: " + this.position + "\tCompany: " + "JAVASTARS" + "\n";
     }
 }
