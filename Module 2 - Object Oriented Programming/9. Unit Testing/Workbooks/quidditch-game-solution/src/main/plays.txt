@@ -1,0 +1,6 @@
+<chaser> starts with the quaffle, speeds off towards the goal posts, and scores! 10 points!
+<chaser> gains the pass, belts up the field and scores, 10 points!
+<chaser> gets the next pass, flies like an eagle. Nice dive around the goalposts, and scores! 10 points.
+<keeper> sees the quaffle racing towards the post. But, they're quick to it. Great save!
+<chaser> gains the pass, dives into the goalposts, and scores! 10 points!
+<seeker> sees the snitch, dives downwards, and catches the snitch! 150 POINTS!!!
