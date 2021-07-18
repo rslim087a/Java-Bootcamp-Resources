@@ -8,7 +8,7 @@ The checkout process returns a receipt that holds the subtotal, tax, and total.
     - Test if the cart contains the item after it's added.
     - Test if the cart skips duplicate item.
 - removing an item
-    - Test if the movie gets removed after being sold.
+    - Test if the item gets removed after being sold.
     - Test for IllegalStateException for trying to remove from an empty cart.
 - checkout
     - Test if subtotal is calculated correctly.
