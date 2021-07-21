@@ -57,17 +57,17 @@ public class Team {
     }
 
     public void setHouse(String house) {
-        checkField(house);
+        checkParam(house);
         this.house = house;
     }
 
     public void setKeeper(String keeper) {
-        checkField(keeper);
+        checkParam(keeper);
         this.keeper = keeper;
     }
 
     public void setSeeker(String seeker) {
-        checkField(seeker);
+        checkParam(seeker);
         this.seeker = seeker;
     }
 
@@ -78,8 +78,8 @@ public class Team {
         this.chasers = Arrays.copyOf(chasers, chasers.length);
     }
 
-    public void checkField(String field) {
-        if (field == null || field.isBlank()) {
+    public void checkParam(String param) {
+        if (param == null || param.isBlank()) {
             throw new IllegalArgumentException(field + " cannot be null or blank");
         }
     }
