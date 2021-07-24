@@ -7,7 +7,7 @@ public class Team {
     private static final String POSITION_KEEPER = "keeper";
 
 //Question: the constants are final, so why can't we make them public? It's not possible for the caller to change it.
-//Answer: It's better practice to expose a method and not the variable, even if the constant is final. 
+//Answer: It's good practice to expose a method and not the variable, even if the constant is final. 
     
      public static String getPositionChaser() {
          return POSITION_CHASER;
