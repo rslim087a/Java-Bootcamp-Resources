@@ -8,7 +8,7 @@ public class Team {
 
 
 /*If you decide to make the constants private, use the following getters.
-  If not, you can remove all these comments. Both approaches are acceptable.*/
+  Otherwise, you can remove all these comments. Both approaches are accepted.*/
     
 //     public static String getPositionChaser() {
 //         return POSITION_CHASER;
