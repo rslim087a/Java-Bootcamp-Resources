@@ -1,0 +1,9 @@
+Your clothing store sells shirts and pants (we will skip creating a store object).
+Shirts are identified by their size, price, color and brand.
+Pants are identified by their waist, price, color and brand.
+Every product in the store must be folded before a sale.
+Pants are discountable by 50%. Shirts are not discountable.
+Products must be sorted by price.
+
+                        Test Cases
+To keep the focus on inheritance, no units will be performed.
