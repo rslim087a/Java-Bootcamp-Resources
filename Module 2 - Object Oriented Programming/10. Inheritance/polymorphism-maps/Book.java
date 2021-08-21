@@ -62,7 +62,7 @@ public class Book implements Comparable<Book> {
 
     @Override
     public int compareTo(Book o) {
-        return (int) Math.ceil(this.getPrice() - (o.getPrice()));
+        return Double.compare(super.getPrice(), o.getPrice());
     }
 
 
