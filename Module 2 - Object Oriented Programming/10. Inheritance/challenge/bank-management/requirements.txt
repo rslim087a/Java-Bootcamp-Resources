@@ -4,14 +4,14 @@ A chequing account contains an id, name, and balance.
 A chequing account allows users to deposit or withdraw an amount of money.
 The chequing account charges an overdraft fee of $5.50 if the amount being withdrawn exceeds the account balance.
 The overdraft limit is $200.00 dollars.
-A chequing account is taxable. Income that exceeds 45000 is taxed 15%.
+A chequing account is taxable. Income that exceeds $45,000 is taxed 15%.
 
                               SAVINGS ACCOUNT
 
 A savings account contains an id, name, and balance.
 A savings account allows users to deposit or withdraw an amount of money.
 Deposits are free, but the savings account charges a $5.00 fee for every withdrawal.
-A savings account is taxable. Income that exceeds 65000 is taxed 5%.
+A savings account is taxable. Income that exceeds $65,000 is taxed 5%.
 
                               LOAN ACCOUNT
 
