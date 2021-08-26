@@ -24,7 +24,8 @@ Every withdrawal is charged a fixed interest rate of 2%.
 
 An account transaction can be: WITHDRAW or DEPOSIT.
 Every transaction has an id, amount, and timestamp.
-The transaction id matches the id of an account. So, the id determines where to make the transaction.
+The id of a transaction matches the id of an account. 
+The id determines which account the transaction belongs to.
 Transactions must be sorted based on id and timestamp. 
 
                               BANK
