@@ -1,0 +1,16 @@
+f84c43f4-a634-4c57-a644-7602f8840870,Michael Scott,Chequing
+ce07d7b3-9038-43db-83ae-77fd9c0450c9,Saul Goodman,Chequing
+4991bf71-ae8f-4df9-81c1-9c79cff280a5,Phoebe Buffay,Savings
+23a8bae0-1725-4282-8401-2fd418b75682,Dean Winchester,Loan
+0d630d3a-33ad-4e36-b2b0-0c02d6476364,Rick Grimes,Loan
+5b6af5d4-bd3c-480c-9f35-c3b76cf3a271,Meredith Grey,Chequing
+3ff1e463-be1c-453d-b59c-65a8f57afb6b,Jesse Pinkman,Savings
+6b8dd258-aba3-4b19-b238-45d15edd4b48,Teresa Lisbon,Loan
+7ee3db4f-c1ba-425c-a83d-c73381c89569,James Bond,Chequing
+6feaa39d-342b-4195-991d-92e18465d457,Han Solo,Chequing
+a9e7617e-beef-4d93-a8b1-7a53b6b92c7a,Walter White,Loan
+907df163-3f3a-40bc-8468-1853fdf3dfa7,Jon Snow,Chequing
+a76dc647-14bb-4fe1-b9ae-cd06d46f6f3c,Tony Stark,Savings
+51bec274-c7e1-448e-8ac4-b93a2ef478cb,Peter Parker,Savings
+48910e55-0b73-40be-b1e6-6355d08013c3,Sherlock Holmes,Loan
+f1e31491-1120-4fcb-a73f-04fddd433979,Captain Kirk,Savings
