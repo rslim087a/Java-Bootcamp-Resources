@@ -31,5 +31,6 @@ Transactions must be sorted based on id and timestamp.
                               BANK
 
 The bank keeps record of every account created and transaction made.
-The bank can execute transactions for any account.
+The bank can execute transactions for any account. 
+Depending on the account, some transactions may be denied.
 The bank can deduct taxes from taxable accounts.
