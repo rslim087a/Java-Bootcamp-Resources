@@ -17,7 +17,7 @@ A savings account is taxable. Income that exceeds $65,000 is taxed 5%.
 
 A loan account contains an id, name, and balance.
 A loan account allows users to deposit or withdraw an amount of money.
-The withdrawal limit for a loan account is $10,000.
+A withdrawal can't made if the debt exceeds $10,000.
 Every withdrawal is charged a fixed interest rate of 2%.
 
                               TRANSACTION
