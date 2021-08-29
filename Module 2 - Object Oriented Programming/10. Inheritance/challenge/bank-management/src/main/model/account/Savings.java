@@ -1,4 +1,4 @@
-package main.model.account;
+package src.main.model.account;
 
 public class Savings {
 
