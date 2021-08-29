@@ -4,7 +4,8 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
 
-    static String ACCOUNTS_FILE = "src/main/data/accounts.txt";
+    //For Windows users: replace / with \
+    static String ACCOUNTS_FILE = "src/main/data/accounts.txt";            
     static String TRANSACTIONS_FILE = "src/main/data/transactions.txt";
 
     public static void main(String[] args) {
