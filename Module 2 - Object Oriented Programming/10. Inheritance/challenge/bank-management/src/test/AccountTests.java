@@ -1,6 +1,6 @@
-package test;
+package src.test;
 
-import main.model.account.Account;
+import src.main.model.account.Account;
 
 public class AccountTests {
     
