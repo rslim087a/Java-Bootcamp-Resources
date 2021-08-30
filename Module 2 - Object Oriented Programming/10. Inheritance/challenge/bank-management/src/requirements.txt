@@ -27,6 +27,7 @@ Every transaction has an id, amount, and timestamp.
 The id of a transaction matches the id of an account. 
 The id determines which account the transaction belongs to.
 Transactions must be sorted based on id and timestamp. 
+A transaction's timestamp must display to the user as a readable date.
 
                               BANK
 
