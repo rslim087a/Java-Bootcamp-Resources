@@ -26,7 +26,6 @@ An account transaction can be: WITHDRAW or DEPOSIT.
 Every transaction has an id, amount, and timestamp.
 Transactions must be sorted based on timestamp. 
 A transaction's timestamp must display to the user as a readable date.
-The transaction class must reject invalid timestamps.
 
                               BANK
 
