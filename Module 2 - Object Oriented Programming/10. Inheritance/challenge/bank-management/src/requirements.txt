@@ -4,7 +4,7 @@ A chequing account contains an id, name, and balance.
 A chequing account allows users to deposit or withdraw an amount of money.
 The chequing account charges an overdraft fee of $5.50 if the amount being withdrawn exceeds the account balance.
 The overdraft limit is $200.00 dollars.
-A chequing account is taxable. Income that exceeds $3,000 is taxed 5%.
+A chequing account is taxable. Income that exceeds $3,000 is taxed 15%.
 
 
                               SAVINGS ACCOUNT
