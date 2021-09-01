@@ -29,7 +29,7 @@ A transaction's timestamp must display to the user as a readable date.
 
                               BANK
 
-The bank keeps record of every account created and transaction made.
+The bank keeps a record of every account created and transaction made.
 The id of a transaction matches the id of an account. 
 Depending on the account, some transactions may be denied.
 The bank can deduct taxes from taxable accounts.
