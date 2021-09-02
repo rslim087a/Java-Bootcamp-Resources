@@ -25,9 +25,9 @@ public class Main {
      *  1. Makes the code sleep for X seconds.
      */
 
-     public static void wait(int sec) {
+     public static void wait(int milliseconds) {
          try {
-            TimeUnit.SECONDS.sleep(sec);
+            TimeUnit.MILLISECONDS.sleep(milliseconds);
          } catch (InterruptedException e) {
              System.out.println(e.getMessage());
          }
