@@ -19,10 +19,10 @@ public class Main {
 
     /**
      * Function name: wait
-     * @param sec
+     * @param milliseconds
      * 
      * Inside the function:
-     *  1. Makes the code sleep for X seconds.
+     *  1. Makes the code sleep for X milliseconds.
      */
 
      public static void wait(int milliseconds) {
