@@ -5,7 +5,7 @@ import java.nio.file.Paths;
 
 public class Main {
 
-    static final String SALES = "data/sales.csv";
+    static final String SALES = "data/sales.csv"; //Use backslash Windows users
 
     public static void main(String[] args) {
         
