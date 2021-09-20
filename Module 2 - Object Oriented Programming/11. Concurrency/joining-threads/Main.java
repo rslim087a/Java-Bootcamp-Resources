@@ -5,6 +5,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        //call generateNumber here...
+        //calculate precision level here...
         System.out.println("The computer returned a value of: " + <result>);
         System.out.println("The value was generated to a precision of : " + <precision>);
     }
