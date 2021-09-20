@@ -1,19 +1,24 @@
+import java.net.URISyntaxException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+
 
 public class Main {
 
     static final String SALES = "data/sales.csv";
 
     public static void main(String[] args) {
-      
-      Path path = Paths.get(Thread.currentThread().getContextClassLoader().getResource(SALES).toURI());            
+        
+        try {
+            Path path = Paths.get(Thread.currentThread().getContextClassLoader().getResource(SALES).toURI());
+            //calculate average sales of "Furniture" here
+            //calculate average sales of "Technology" here
+            //calculate average sales of "Office Supplies" here
+            //calculate total average of sales here
 
-      //calculate average sales of "Furniture" here
-      //calculate average sales of "Technology" here
-      //calculate average sales of "Office Supplies" here
-      //calculate total average of sales here
-      
+        } catch (URISyntaxException e) {
+            System.out.println(e.getMessage());
+        }
     }
 
     /**
