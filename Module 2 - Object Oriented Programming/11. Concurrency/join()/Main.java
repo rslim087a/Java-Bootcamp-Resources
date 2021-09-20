@@ -11,7 +11,7 @@ public class Main {
 
     /**
      * Function name: generateNumber
-     * @return double[]
+     * @return double
      * 
      * Inside the function:
      *   1. Generates a number close to the TARGET to a precision of PRECISION.
