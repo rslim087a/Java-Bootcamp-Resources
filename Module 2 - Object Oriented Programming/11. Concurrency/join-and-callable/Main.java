@@ -1,7 +1,7 @@
 public class Main {
 
-    final static final double TARGET = 0.5;
-    final static final double PRECISION = 0.000000001;
+    static final double TARGET = 0.5;
+    static final double PRECISION = 0.000000001;
 
     public static void main(String[] args) {
 
