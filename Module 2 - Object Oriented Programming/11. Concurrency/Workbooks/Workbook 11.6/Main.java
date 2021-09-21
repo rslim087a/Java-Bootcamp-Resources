@@ -11,17 +11,4 @@ public class Main {
       
     }
 
-    /**
-     * Function name: increment
-     * @param file
-     * @param latch
-     * @param lock
-     * 
-     * Inside the function:
-     *   1. Runs through the every line in the file.
-     *   2. Maps each element in the stream to a quantity value.
-     *   3. Increments sampleSize and quantitySold.
-     */
-
-
 }
