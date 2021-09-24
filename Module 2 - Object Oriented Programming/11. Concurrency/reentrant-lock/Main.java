@@ -7,7 +7,9 @@ public class Main {
     }
     
     public static void task() {
-        counter++;
+        //some really long operations that need to be multi-threaded...
+        counter++; // there happens to be a line that updates the counter variable. 
+        //more really long operations...
     }
   
 }
