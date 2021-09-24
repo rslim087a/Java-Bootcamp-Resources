@@ -8,7 +8,9 @@ public class Main {
     
     public static void task() {
         //some really long operations that need to run in the background...
-        counter++; // there happens to be a line that updates the counter variable. 
+        for (int i = 0; i < 10000; i++) {
+            counter++; // there happens to be a line that updates the counter variable. 
+        }
         //more really long operations...
     }
   
