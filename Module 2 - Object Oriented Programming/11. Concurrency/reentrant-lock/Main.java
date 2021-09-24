@@ -6,8 +6,11 @@ public class Main {
     
     }
     
-    public static void increment() {
+    public static void task() {
+        System.out.println("doing some work");
         counter++;
+        System.out.println("doing some other random work");
+        System.out.println("doing some more work");
     }
   
 }
