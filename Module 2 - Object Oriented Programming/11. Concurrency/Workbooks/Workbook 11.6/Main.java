@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
  
     static String[] files = new String[] { "data/sales1.csv", "data/sales2.csv", "data/sales3.csv"};
@@ -14,7 +16,7 @@ public class Main {
             System.out.print("Please enter your name to access the Global Superstore data: ");
             String name = scan.nextLine();
             System.out.println("\nThank you " + name + ".\n");
-       
+            scan.close();
             
      
     }
