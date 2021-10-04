@@ -1,0 +1,21 @@
+                              PERSONAL ACCOUNT
+
+A personal account has a portfolio and funds available.
+The investor's portfolio tracks how many shares they own of each stock.
+Buy trades made from a personal account are free.
+Sell trades made in a personal account are immediately charged a 5% fee.
+
+                              TFSA ACCOUNT
+
+A TFSA has a portfolio and funds available.
+The investor's portfolio tracks how many shares they own of each stock.
+Every trade (buy/sell) made from a TFSA is charged a 1% fee.
+
+                              TRADE
+
+A trade can be: MARKET_BUY or MARKET_SELL.
+A trade is identified by the:
+  - stock (AAPL, FB, GOOG, TSLA).
+  - type of trade ( MARKET_BUY, MARKET_SELL ).
+  - the amount of shares being purchased/sold.
+  - the price of the stock at that day.
