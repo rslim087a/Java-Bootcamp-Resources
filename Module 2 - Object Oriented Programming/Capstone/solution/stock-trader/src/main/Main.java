@@ -20,27 +20,19 @@ public class Main {
     static final double INITIAL_DEPOSIT = 4000;
     static Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         explainApp();
         switch (accountChoice()) {
             case "a": account = new Personal(INITIAL_DEPOSIT); break;
             case "b": account = new TFSA(INITIAL_DEPOSIT); break;
         }
 
-        System.out.print("\n\n  You created a " + Color.YELLOW + account.getClass().getSimpleName() + Color.RESET + " account.");
-        System.out.println(" Your account balance is " + Color.GREEN + "$" + account.getFunds() + Color.RESET);
-        System.out.print("\n  Enter anything to start trading: ");
-        scanner.nextLine();
+        initialBalance();
 
         for (int day = 1; day <= 2160; day++) {
-            System.out.println("\n\n\t  DAY " + day + " PRICES\n");
 
-            System.out.println("  " + Color.BLUE + Stock.AAPL + "\t\t" + Color.GREEN + getPrice(Stock.AAPL, day));
-            System.out.println("  " + Color.BLUE + Stock.FB + "\t\t" + Color.GREEN + getPrice(Stock.FB, day));
-            System.out.println("  " + Color.BLUE + Stock.GOOG + "\t\t" + Color.GREEN + getPrice(Stock.GOOG, day));
-            System.out.println("  " + Color.BLUE + Stock.TSLA + "\t\t" + Color.GREEN + getPrice(Stock.TSLA, day) + Color.RESET);
+            displayPrices(day);
 
-            
             String choice = buyOrSell();
             String stock = chooseStock();
             int shares = numShares(choice);
@@ -52,24 +44,27 @@ public class Main {
                 shares
             )) ? "successful" : "unsuccessful";
 
-            System.out.println("\n  The trade was " + (result.equals("successful") ? Color.GREEN : Color.RED) + result + Color.RESET + ". Here is your portfolio:");
-            System.out.println(account);
-            System.out.print("\n  Press anything to continue");
-            scanner.nextLine();
-
+            tradeStatus(result);
         }
 
         scanner.close();
-
     }
 
     public static void explainApp() {
         System.out.print(Color.BLUE + "\n • PERSONAL: ");
-        System.out.println(Color.YELLOW + "Every sale made in a personal account is immediately taxed 3%.");
+        System.out.println(Color.YELLOW + "Every sale made in a personal account is charged a 5% fee.");
         System.out.print(Color.BLUE + "\n • TFSA: ");
-        System.out.println(Color.YELLOW + "Every trade (buy/sell) made from a TFSA is charged a 0.5% fee.\n");
+        System.out.println(Color.YELLOW + "Every trade (buy/sell) made from a TFSA is charged a 1% fee.\n");
         System.out.println(Color.BLUE + " • Neither account has a limit on the amount of trades that can be made." + Color.RESET);
     }
+
+    public static void initialBalance() {
+        System.out.print("\n\n  You created a " + Color.YELLOW + account.getClass().getSimpleName() + Color.RESET + " account.");
+        System.out.println(" Your account balance is " + Color.GREEN + "$" + account.getFunds() + Color.RESET);
+        System.out.print("\n  Enter anything to start trading: ");
+        scanner.nextLine();
+    }
+
 
     public static String accountChoice() {
         System.out.print("\n  Respectively, type 'a' or 'b' to create a Personal account or TFSA: ");
@@ -136,6 +131,23 @@ public class Main {
 
         }
         return shares;
+    }
+
+    public static void displayPrices(int day) {
+        System.out.println("\n\n\t  DAY " + day + " PRICES\n");
+
+        System.out.println("  " + Color.BLUE + Stock.AAPL + "\t\t" + Color.GREEN + getPrice(Stock.AAPL, day));
+        System.out.println("  " + Color.BLUE + Stock.FB + "\t\t" + Color.GREEN + getPrice(Stock.FB, day));
+        System.out.println("  " + Color.BLUE + Stock.GOOG + "\t\t" + Color.GREEN + getPrice(Stock.GOOG, day));
+        System.out.println("  " + Color.BLUE + Stock.TSLA + "\t\t" + Color.GREEN + getPrice(Stock.TSLA, day) + Color.RESET);
+
+    }
+
+    public static void tradeStatus(String result) {
+        System.out.println("\n  The trade was " + (result.equals("successful") ? Color.GREEN : Color.RED) + result + Color.RESET + ". Here is your portfolio:");
+        System.out.println(account);
+        System.out.print("\n  Press anything to continue");
+        scanner.nextLine();
     }
 
 }
