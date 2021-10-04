@@ -98,7 +98,7 @@ public class Main {
 
     public static Path getPath(String stock) {
         try {
-            return Paths.get(Thread.currentThread().getContextClassLoader().getResource("src/main/data/AAPL.csv").toURI());
+            return Paths.get(Thread.currentThread().getContextClassLoader().getResource("src/main/data/"+stock+".csv").toURI());
         } catch (Exception e) {
             System.out.println(e.getMessage());
             return null;
