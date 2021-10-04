@@ -1,5 +1,11 @@
 package src.main;
 
+import java.nio.file.Path;
+import java.util.Scanner;
+
+import src.main.model.account.Account;
+import src.main.utils.Color;
+
 public class Main {
 
     static Account account; 
@@ -71,6 +77,7 @@ public class Main {
         return shares;
     }
     
+    /* TODO
     public static void displayPrices(int day) {
         System.out.println("\n\n\t  DAY " + day + " PRICES\n");
 
@@ -80,7 +87,7 @@ public class Main {
         System.out.println("  " + Color.BLUE + Stock.TSLA + "\t\t" + Color.GREEN + getPrice(Stock.TSLA, day) + Color.RESET);
 
     }
-
+    */
     public static void tradeStatus(String result) {
         System.out.println("\n  The trade was " + (result.equals("successful") ? Color.GREEN : Color.RED) + result + Color.RESET + ". Here is your portfolio:");
         System.out.println(account);
@@ -89,17 +96,16 @@ public class Main {
     }
     
     
-    
-    //TODO
+    /* TODO
     public static String getPrice(Stock stock, int day) {
         return "15.2343";
     }
 
-    //TODO
+
     public static Path getPath(String stock) {
         return null;
     }
-
+    */
 
 
 }
