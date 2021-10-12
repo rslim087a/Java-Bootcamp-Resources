@@ -21,13 +21,13 @@ Snape made an error on his excel, accidentally multiplying Ron's score to: <resu
 Originally, Fred had  <result> times more sweets than George
 Andromeda has <result> times more stars
 Snape caught the error. Furious, he divided Ron's score to: <result>
-
+```
 
 
 ### Math Operators - Part 2
 -----
 
-  
+```  
 10 is an even number, since dividing 10 by 2 has a remainder of: <remainder>
 5 is an odd number, since dividing 5 by 2 has a remainder of: <remainder>
 ```
