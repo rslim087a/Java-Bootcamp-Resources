@@ -1,11 +1,11 @@
 ### Math Operators - Part 1
 -----
-
+```
 Fred and George collected <result> sweets
 
 There are <result> stars in the Milky Way and Andromeda galaxies.
 
-With bonus marks, Ron scored /<result>/10 on his potions test. Snape wasn't too thrilled
+With bonus marks, Ron scored <result>/10 on his potions test. Snape wasn't too thrilled
 
 
 
@@ -38,4 +38,5 @@ Snape caught the error. Furious, he divided Ron's score to: <result>
 10 is an even number, since dividing 10 by 2 has a remainder of: <remainder>
 
 5 is an odd number, since dividing 5 by 2 has a remainder of: <remainder>
+```
 
