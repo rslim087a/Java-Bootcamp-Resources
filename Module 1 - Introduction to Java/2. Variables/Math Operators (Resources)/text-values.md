@@ -5,7 +5,7 @@ Fred and George collected <result> sweets
 
 There are <result> stars in the Milky Way and Andromeda galaxies.
 
-With bonus marks, Ron scored </result>/10 on his potions test. Snape wasn't too thrilled
+With bonus marks, Ron scored /<result>/10 on his potions test. Snape wasn't too thrilled
 
 
 
