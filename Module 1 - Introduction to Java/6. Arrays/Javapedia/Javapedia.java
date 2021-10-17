@@ -16,13 +16,13 @@ public class Javapedia {
 
             System.out.println("\n\tFigure " + (i+1)); 
 
-            System.out.print("\t • Name: ");
+            System.out.print("\t - Name: ");
             pick up and store figure's name.   
 
-            System.out.print("\t • Date of birth: ");
+            System.out.print("\t - Date of birth: ");
             pick up and store figure's birthday.
 
-            System.out.print("\t • Occupation: ");
+            System.out.print("\t - Occupation: ");
             pick up and store figure's occupation. 
 
             System.out.print("\n");
