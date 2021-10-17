@@ -56,7 +56,7 @@ public class TicTacToe {
      * @return spot (int[])
      * 
      * Inside the function
-     *   1. Asks the user: • pick a row and column number: 
+     *   1. Asks the user: - pick a row and column number: 
      *   2. Check if the spot is taken. If so, let the user choose again.
      *   3. Return the row and column in an int[] array.
      * 
