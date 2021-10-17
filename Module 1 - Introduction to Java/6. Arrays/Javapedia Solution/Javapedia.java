@@ -14,11 +14,11 @@ public class Javapedia {
         
         for (int i = 0; i < database.length; i++) {
             System.out.println("\n\tFigure " + (i+1));
-            System.out.print("\t • Name: ");
+            System.out.print("\t - Name: ");
             database[i][0] = scan.nextLine();
-            System.out.print("\t • Date of birth: ");
+            System.out.print("\t - Date of birth: ");
             database[i][1] = scan.nextLine();
-            System.out.print("\t • Occupation: ");
+            System.out.print("\t - Occupation: ");
             database[i][2] = scan.nextLine();
             System.out.print("\n");
         }
