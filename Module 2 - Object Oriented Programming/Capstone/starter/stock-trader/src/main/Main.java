@@ -18,11 +18,11 @@ public class Main {
     }
 
     public static void explainApp() {
-        System.out.print(Color.BLUE + "\n • PERSONAL: ");
+        System.out.print(Color.BLUE + "\n - PERSONAL: ");
         System.out.println(Color.YELLOW + "Every sale made in a personal account is charged a 5% fee.");
-        System.out.print(Color.BLUE + "\n • TFSA: ");
+        System.out.print(Color.BLUE + "\n - TFSA: ");
         System.out.println(Color.YELLOW + "Every trade (buy/sell) made from a TFSA is charged a 1% fee.\n");
-        System.out.println(Color.BLUE + " • Neither account has a limit on the amount of trades that can be made." + Color.RESET);
+        System.out.println(Color.BLUE + " - Neither account has a limit on the amount of trades that can be made." + Color.RESET);
     }
     
     public static void initialBalance() {
