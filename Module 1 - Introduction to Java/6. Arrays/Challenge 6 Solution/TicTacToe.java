@@ -103,7 +103,7 @@ public class TicTacToe {
      * 
      */
     public static int[] askUser(char[][] board) {   
-        System.out.print(" • pick a row and column number: ");
+        System.out.print(" - pick a row and column number: ");
 
         int row = scan.nextInt();
         int column = scan.nextInt();
