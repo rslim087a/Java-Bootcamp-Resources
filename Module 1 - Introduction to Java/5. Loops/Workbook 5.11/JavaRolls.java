@@ -12,9 +12,9 @@ public class JavaRolls {
         /* Task 2: 
               1. Once the user is ready, print: 
                     Great, here are the rules:\n
-                     • If you roll a 6 the game stops.
-                     • If you roll a 4 nothing happens.
-                     • Otherwise, you get 1 point.\n
+                     - If you roll a 6 the game stops.
+                     - If you roll a 4 nothing happens.
+                     - Otherwise, you get 1 point.\n
                     You must collect at least 3 points to win. Enter anything to roll:
               2. Get the user to enter any value
         */
