@@ -40,7 +40,7 @@ public class Quiz {
 
         if (score >= 15) {
             System.out.println("Wow, you know your stuff!");
-        } else if (score >= 5 && score < 15) {
+        } else if (score >= 5) {
             System.out.println("Not bad!");
         } else {
             System.out.println("Better luck next time!");  
