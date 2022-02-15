@@ -80,7 +80,7 @@ public class Team {
 
     public void checkParam(String param) {
         if (param == null || param.isBlank()) {
-            throw new IllegalArgumentException(field + " cannot be null or blank");
+            throw new IllegalArgumentException("field cannot be null or blank");
         }
     }
 
