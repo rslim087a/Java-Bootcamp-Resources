@@ -4,13 +4,8 @@ import java.util.concurrent.TimeUnit;
 
 public class Main {
 
-   // Mac users:
-   //  static String ACCOUNTS_FILE = "src/main/data/accounts.txt";            
-   //  static String TRANSACTIONS_FILE = "src/main/data/transactions.txt";
-
-    // Windows users:
-    //  static String ACCOUNTS_FILE = "src\main\data\accounts.txt";            
-    //  static String TRANSACTIONS_FILE = "src\main\data\transactions.txt";
+   static String ACCOUNTS_FILE = "src/main/data/accounts.txt";            
+   static String TRANSACTIONS_FILE = "src/main/data/transactions.txt";
 
     public static void main(String[] args) {
 
