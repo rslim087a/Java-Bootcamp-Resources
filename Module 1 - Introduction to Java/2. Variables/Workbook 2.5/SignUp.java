@@ -14,11 +14,9 @@ public class SignUp {
         //Ask for their last name.
         //Ask: how old are you?
         /* Ask them to make a username. SIDE NOTE:
-           - You will encounter the nextLine() Trap here.
-           - The Workbook 2.5 article explains how to avoid it.
-           - The "Delimiters" lesson (next section) explains why the trap happens. Until you reach the Delimiters lesson, 
-           please refrain from asking why nextLine() is being skipped. The Discord has been flooded with that question :D.
-           Thank you!
+           – nextLine() gets "skipped" if you put it ahead of nextInt() , nextDouble(), nextLong().
+           – You will understand why this happens when we cover Delimiters in the next section (Booleans and Conditionals).
+           – The solution is to add a throwaway nextLine() before the "real" nextLine().
         */
         //Ask what city they live in.
         //Ask what country that's from.
