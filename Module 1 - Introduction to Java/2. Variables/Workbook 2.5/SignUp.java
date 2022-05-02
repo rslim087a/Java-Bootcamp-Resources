@@ -13,7 +13,13 @@ public class SignUp {
         //Ask for their first name.
         //Ask for their last name.
         //Ask: how old are you?
-        //Ask them to make a username.
+        /* Ask them to make a username. SIDE NOTE:
+           - You will encounter the nextLine() Trap here.
+           - Workbook 2.5 article explains how to avoid it.
+           - The "Delimiters" lesson (next section) explains why the trap happens. Until you reach the Delimiters lesson, 
+           please refrain from asking why nextLine() is being skipped. The Discord has been flooded with that question :D.
+           Thank you!
+        */
         //Ask what city they live in.
         //Ask what country that's from.
 
