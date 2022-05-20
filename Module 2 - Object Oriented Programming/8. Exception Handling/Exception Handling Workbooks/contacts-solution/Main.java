@@ -12,12 +12,13 @@ public class Main {
     public static void main(String[] args) {
         try {
             loadContacts("contacts.txt");
-        } catch (FileNotFoundException e) {
-            System.out.println(e.getMessage());
-        } finally {
             System.out.println("CONTACTS LOADED\n\n");
             System.out.println(manager);
             manageContacts();
+        } catch (FileNotFoundException e) {
+            System.out.println(e.getMessage());
+        } finally {
+           System.out.println("\nProcess Complete.");
         }
 
     }
@@ -51,10 +52,9 @@ public class Main {
                 } else {
                     try {
                         manager.addContact(new Contact(name, phoneNumber, birthDate));
+                        System.out.println("\n\nUPDATED CONTACTS\n\n" + manager);
                     } catch (ParseException e) {
                         System.out.println(e.getMessage());
-                    } finally {
-                        System.out.println("\n\nUPDATED CONTACTS\n\n" + manager);
                     }
                 }
              } else if (response.equals("b")) {
