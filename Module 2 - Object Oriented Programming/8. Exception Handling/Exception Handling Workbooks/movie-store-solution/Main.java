@@ -14,12 +14,14 @@ public class Main {
         System.out.println("\n********************JAVA VIDEO STORE********************\n");
         try {
             loadMovies("movies.txt");
-        } catch (FileNotFoundException e) {
-            System.out.println(e.getMessage());
-        } finally {
             System.out.println("MOVIES LOADED\n\n");
             System.out.println(store);
             manageMovies();
+
+        } catch (FileNotFoundException e) {
+            System.out.println(e.getMessage());
+        } finally {
+            System.out.println("\nProcess Complete.");
         }
 
     }
