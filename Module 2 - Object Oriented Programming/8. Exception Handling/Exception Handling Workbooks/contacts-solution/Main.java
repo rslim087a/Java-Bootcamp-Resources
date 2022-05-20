@@ -52,9 +52,10 @@ public class Main {
                 } else {
                     try {
                         manager.addContact(new Contact(name, phoneNumber, birthDate));
-                        System.out.println("\n\nUPDATED CONTACTS\n\n" + manager);
                     } catch (ParseException e) {
                         System.out.println(e.getMessage());
+                    } finally { //contacts will re-print regardless of the outcome...
+                         System.out.println("\n\nUPDATED CONTACTS\n\n" + manager);
                     }
                 }
              } else if (response.equals("b")) {
