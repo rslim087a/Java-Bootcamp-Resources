@@ -13,10 +13,11 @@ public class Main {
     public static void main(String[] args) {
         try {
             loadItems("products.txt");
+             manageItems();
         } catch (FileNotFoundException e) {
             System.out.println(e.getMessage());
         } finally {
-            manageItems();
+            System.out.println("Process Complete");
         }
     }
 
