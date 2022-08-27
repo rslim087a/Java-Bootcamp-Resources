@@ -1,6 +1,6 @@
 public class WorkSchedule {
     public static void main(String[] args) {
-        int day = 3;  
+        int day = 3;   //3rd day of the week...
         boolean holiday = true;
          
         // if it's a holiday, print: "woohoo, no work!");
