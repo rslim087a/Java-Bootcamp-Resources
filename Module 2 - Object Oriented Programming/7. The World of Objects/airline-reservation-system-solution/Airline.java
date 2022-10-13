@@ -1,5 +1,5 @@
 public class Airline {
-    Person[] seats;
+    private Person[] seats;
  
     public Airline() {
         this.seats = new Person[11];
