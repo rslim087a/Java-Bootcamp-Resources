@@ -14,7 +14,7 @@ public class SignUp {
         //Ask for their last name.
         //Ask: how old are you?
         /* Ask them to make a username. SIDE NOTE:
-           – nextLine() gets "skipped" if you put it ahead of nextInt() , nextDouble(), nextLong().
+           – nextLine() gets "skipped" if you put it after nextInt() , nextDouble(), nextLong().
            – You will understand why this happens when we cover Delimiters in the next section (Booleans and Conditionals).
            – For now, just know that the solution is to add an extra nextLine().
         */
