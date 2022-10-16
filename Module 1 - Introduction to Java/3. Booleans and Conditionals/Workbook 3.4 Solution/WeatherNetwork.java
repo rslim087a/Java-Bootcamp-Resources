@@ -4,7 +4,7 @@ public class WeatherNetwork {
         int temp = 25;
 
         String forecast;
-        if (forecast <= -1) {
+        if (temp <= -1) {
             forecast = "The forecast is FREEZING! Stay home!";
         } else if (temp > -1 && temp <= 10) {
             forecast = "The forecast is Chilly. Wear a coat!";
