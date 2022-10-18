@@ -9,7 +9,7 @@ public class WeatherNetwork {
 
         //if temp is less than or equal to -1: "The forecast is FREEZING! Stay home!"
 
-        //if temp between 0 and 10: "The forecast is Chilly. Wear a coat!";
+        //if temp is less than or equal to 10: "The forecast is Chilly. Wear a coat!";
 
         //else: It's warm. go outside!
 
