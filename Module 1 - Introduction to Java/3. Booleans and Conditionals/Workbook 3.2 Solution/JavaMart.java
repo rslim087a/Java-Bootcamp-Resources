@@ -4,7 +4,7 @@ public class JavaMart {
         
         double toyCar = 5.99;
         System.out.println("Can I get this car?");
-        if (wallet > toyCar) {
+        if (wallet >= toyCar) {
             System.out.println("Sure!\n");
             wallet -= toyCar;
         } else {
@@ -13,7 +13,7 @@ public class JavaMart {
 
         double nike = 95.99;     //run test case with 89.99. 
         System.out.println("Can I get these nike shoes?");
-        if (wallet > nike) {
+        if (wallet >= nike) {
             System.out.println("Sure!\n");
             wallet -= nike;
         } else {
