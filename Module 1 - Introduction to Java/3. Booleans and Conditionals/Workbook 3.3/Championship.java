@@ -7,13 +7,13 @@ public class Championship {
         // int margin = amount of points by which gryffindor scored over ravenclaw;
 
 
-        //if gryffindor wins by a margin of 300 points:
+        //If gryffindor wins by a margin of 300 points or more:
              //print: Gryffindor takes the house cup!
 
-        //if gryffindor wins by a margin of any points: 
+        //If gryffindor wins by a margin of any points or ties: 
             //print: In second place, Gryffindor!
 
-        //if gryffindor loses by a margin of 100 points, they are third:
+        //If gryffindor loses within 100 points, print:
             //print: In third place, Gryffindor!
 
         //else:
