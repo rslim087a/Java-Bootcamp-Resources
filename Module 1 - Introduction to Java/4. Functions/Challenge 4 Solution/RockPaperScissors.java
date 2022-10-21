@@ -15,7 +15,7 @@ public class RockPaperScissors {
 
         if (ready.equals("yes")) {
             System.out.println("\nGreat!");
-            System.out.println("rock – paper – scissors, shoot!");            
+            System.out.println("rock - paper - scissors, shoot!");            
             String yourChoice = scan.next();
             String computerChoice = computerChoice();
             String result = result(yourChoice, computerChoice);
