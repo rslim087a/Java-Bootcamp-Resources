@@ -16,7 +16,7 @@ public class RockPaperScissors {
 
        • if the answer is yes: 
              – print: Great!
-             – print: rock – paper – scissors, shoot!
+             – print: rock - paper - scissors, shoot!
              – pick up user's choice.
              – get the computer choice (can only be done after task 3).
              – get the result (can only be done after task 4)
