@@ -56,21 +56,20 @@ public class RockPaperScissors {
      *  @return result (String) 
 
      * Inside the function:
-     *   1. result is "You win" if:
-     * 
+     *   
+     *   1. result is "You win!" if:
+     *
      *       You: "rock"      Computer: "scissors"
      *       You: "paper"     Computer: "rock"
      *       You: "scissors"  Computer: "paper"
-     * 
-     *   2. result is "You lose" if:
-     * 
-     *       Computer: "rock"      You: "scissors"
-     *       Computer: "paper"     You: "rock"
-     *       Computer: "scissors"  You: "paper"
-     * 
-     *   3. result is "It's a tie" if:
-     * 
+     *
+     *   2. result is "It's a tie" if:
+     *
      *       your choice equals computer choice.
+     *
+     *
+     *   3. Otherwise, the result is "You lose!":
+     *   
      *   
      */
 
