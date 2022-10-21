@@ -63,13 +63,15 @@ public class RockPaperScissors {
      *       You: "paper"     Computer: "rock"
      *       You: "scissors"  Computer: "paper"
      *
-     *   2. result is "It's a tie" if:
-     *
-     *       your choice equals computer choice.
-     *
+     *   2. result is "You lose" if:
+     * 
+     *       Computer: "rock"      You: "scissors"
+     *       Computer: "paper"     You: "rock"
+     *       Computer: "scissors"  You: "paper"
      *
      *   3. Otherwise, the result is "You lose!":
-     *   
+     * 
+     * 
      *   4. Otherwise, print "ERROR" and exit the program.
      *
      *
