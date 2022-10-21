@@ -88,10 +88,12 @@ public class RockPaperScissors {
      * 
      *   2. result is "It's a tie" if:
      * 
-     *       your choice equals computer choice.
-     *   
+     *       your choice equals computer choice.   
+     *     
      *   
      *   3. Otherwise, the result is "You lose!:
+     *     
+     *     
      */
 
     public static String result(String yourChoice, String computerChoice) {
