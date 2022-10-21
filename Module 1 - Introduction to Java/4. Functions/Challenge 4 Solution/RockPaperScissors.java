@@ -96,6 +96,7 @@ public class RockPaperScissors {
      * 
      *       your choice equals computer choice.
      *   
+     *   4. Otherwise, print "ERROR" and exit the program.
      */
 
     public static String result(String yourChoice, String computerChoice) {
