@@ -70,7 +70,9 @@ public class RockPaperScissors {
      *
      *   3. Otherwise, the result is "You lose!":
      *   
-     *   
+     *   4. Otherwise, print "ERROR" and exit the program.
+     *
+     *
      */
 
     public static String result(String yourChoice, String computerChoice) {
