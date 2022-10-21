@@ -86,14 +86,16 @@ public class RockPaperScissors {
      *       You: "paper"     Computer: "rock"
      *       You: "scissors"  Computer: "paper"
      * 
-     *   2. result is "It's a tie" if:
+     *   2. result is "You lose" if:
      * 
-     *       your choice equals computer choice.   
-     *     
+     *       Computer: "rock"      You: "scissors"
+     *       Computer: "paper"     You: "rock"
+     *       Computer: "scissors"  You: "paper"
+     * 
+     *   3. result is "It's a tie" if:
+     * 
+     *       your choice equals computer choice.
      *   
-     *   3. Otherwise, the result is "You lose!:
-     *     
-     *     
      */
 
     public static String result(String yourChoice, String computerChoice) {
@@ -101,18 +103,24 @@ public class RockPaperScissors {
         
         if (yourChoice.equals("rock") && computerChoice.equals("scissors")) {
             result = "You win!";
+        } else if (yourChoice.equals("rock") && computerChoice.equals("paper")) {
+            result = "You lose!";
         } else if (yourChoice.equals("paper") && computerChoice.equals("rock")) {
             result = "You win!";
+        } else if (yourChoice.equals("paper") && computerChoice.equals("scissors")) {
+            result = "You lose!";
         } else if (yourChoice.equals("scissors") && computerChoice.equals("paper")) {
             result = "You win!";
+        } else if (yourChoice.equals("scissors") && computerChoice.equals("rock")) {
+            result = "You lose!";
         } else if (yourChoice.equals(computerChoice)) {
             result = "It's a tie!";
         } else {
-            result = "You lose!";
+            System.out.println("ERROR");
+            System.exit(0);
         }
-        
         return result;
-    }
+      }
 
 
     //Task 5  – Write a function that prints your choice, the computer's, and the result.
