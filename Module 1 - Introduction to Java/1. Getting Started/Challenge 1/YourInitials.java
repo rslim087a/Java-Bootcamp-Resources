@@ -1,5 +1,5 @@
 public class YourInitials {
     public static void main(String[] args) {
-        //print initials here. 
+        //See Learn the Part for the instructions. 
     }
 }
