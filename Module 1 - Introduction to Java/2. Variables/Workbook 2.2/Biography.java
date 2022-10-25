@@ -1,5 +1,8 @@
 public class Biography {
     public static void main(String[] args) {
+        
+        //See Learn the Part for the complete instructions. 
+
 
         //make a name variable
         //make an age variable
