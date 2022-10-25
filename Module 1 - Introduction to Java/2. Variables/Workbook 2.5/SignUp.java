@@ -7,7 +7,7 @@ public class SignUp {
 
         System.out.println("Welcome to JavaGram! Let's sign you up.");
         
-         //See Learn the Part for the complete instructions. 
+         //See Learn the Part for the complete instructions (link in resources folder of Udemy video).  
 
 
         //Task 1 - Using Scanner, ask the user questions
