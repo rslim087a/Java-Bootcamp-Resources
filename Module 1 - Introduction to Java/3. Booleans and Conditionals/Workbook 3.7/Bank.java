@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Bank {
     public static void main(String[] args) {
+        
+        //See Learn the Part for the complete instructions (link in resources folder of Udemy video).  
+
         Scanner scan = new Scanner(System.in);
         System.out.println("\n****ROYAL BANK OF JAVA****");
         System.out.println("Are you here to get a mortgage? (yes or no)");
