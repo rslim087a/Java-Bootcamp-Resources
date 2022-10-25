@@ -1,5 +1,8 @@
 public class Points {
     public static void main(String[] args) {
+        
+        //See Learn the Part for the complete instructions. 
+
         int points = 0;
 
         System.out.println("Harry was caught wandering the halls. -50 points for Gryffindor");
