@@ -1,5 +1,9 @@
 public class AskJava {
     public static void main(String[] args) {
+  
+        //See Learn the Part for the complete instructions (link in resources folder of Udemy video).  
+
+  
         double change = 3.50;
         double price = 2.50;
 
