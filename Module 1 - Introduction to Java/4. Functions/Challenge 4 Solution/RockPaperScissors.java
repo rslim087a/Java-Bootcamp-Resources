@@ -117,7 +117,7 @@ public class RockPaperScissors {
         } else if (yourChoice.equals(computerChoice)) {
             result = "It's a tie!";
         } else {
-            System.out.println("ERROR");
+            System.out.println("INVALID CHOICE");
             System.exit(0);
         }
         return result;
