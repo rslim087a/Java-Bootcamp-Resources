@@ -1,5 +1,8 @@
 public class Meeting {
     public static void main(String[] args) {
+        
+        //See Learn the Part for the complete instructions. 
+
         double sales = 24309.65; 
         double profit = 18562.18; 
         double refunds = 688.78; 
