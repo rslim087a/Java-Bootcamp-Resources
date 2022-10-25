@@ -1,7 +1,7 @@
 public class Biography {
     public static void main(String[] args) {
         
-        //See Learn the Part for the complete instructions. 
+         //See Learn the Part for the complete instructions (link in resources folder of Udemy video).  
 
 
         //make a name variable
