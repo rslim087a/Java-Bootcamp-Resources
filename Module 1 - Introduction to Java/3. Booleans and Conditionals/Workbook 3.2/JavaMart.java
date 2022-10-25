@@ -1,7 +1,10 @@
 public class JavaMart {
     public static void main(String[] args) {
         double wallet = 100;
-        
+
+        //See Learn the Part for the complete instructions (link in resources folder of Udemy video).  
+
+ 
         double toyCar = 5.99;
         System.out.println("Can I get this car?");
        
