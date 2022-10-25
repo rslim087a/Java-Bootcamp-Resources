@@ -4,7 +4,7 @@ public class AppleStore {
         int numOfCustomers = 0;
         double profit = 0;
 
-        //See Learn the Part for the complete instructions. 
+         //See Learn the Part for the complete instructions (link in resources folder of Udemy video).  
 
 
         System.out.println("You picked 500 apples from an apple orchard");
