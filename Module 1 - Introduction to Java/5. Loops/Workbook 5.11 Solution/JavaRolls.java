@@ -39,7 +39,7 @@ public class JavaRolls {
     }
     public static int rollDice() {
         double randomNumber = Math.random() * 6;
-        randomNumber = randomNumber + 1;
+        randomNumber += 1;
         return (int)randomNumber;
     }
     
