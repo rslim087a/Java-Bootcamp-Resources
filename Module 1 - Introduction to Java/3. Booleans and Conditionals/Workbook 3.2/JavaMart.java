@@ -15,7 +15,7 @@ public class JavaMart {
         //else:  Sorry, I only have <wallet> left.
 
         
-        double nike = 95.99;       //run test case with 89.99
+        double nike = 95.99;
         System.out.println("Can I get these nike shoes?");
         //if you have enough money
             //       print: Sure!
