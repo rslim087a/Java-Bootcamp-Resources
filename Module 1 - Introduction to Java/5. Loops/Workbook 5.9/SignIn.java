@@ -15,15 +15,7 @@ public class SignIn {
         System.out.print("• Password: ");
         //pick up password
 
-        /* Task 2 
-            1. Set up a loop that keeps running while the username OR password is incorrect. 
-               When they get it wrong:
-                •  println: \nIncorrect, please try again!\n
-                •  get them to enter their username and password again
-            2. After they enter the correct information, print: 
-                   \nSign in successful. Welcome!
-       */
-
+        // see Learn the Part for the remaining instructions.
         scan.close();
 
         
