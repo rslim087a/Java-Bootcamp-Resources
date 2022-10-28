@@ -9,13 +9,8 @@ public class WeatherNetwork {
         String forecast = "";
 
         //IF - ELSE IF - ELSE STATEMENTS HERE!
-
-        //if temp is less than or equal to -1: "The forecast is FREEZING! Stay home!"
-
-        //if temp is less than or equal to 10: "The forecast is Chilly. Wear a coat!";
-
-        //else: It's warm. go outside!
-
+        
+        
         System.out.println(forecast);
     }
 }
