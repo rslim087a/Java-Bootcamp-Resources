@@ -10,14 +10,13 @@ public class SignIn {
        */
         Scanner scan = new Scanner(System.in);
         System.out.println("\nWelcome to Javagram! Sign in below\n");
-        System.out.print("• Username: ");
+        System.out.print("- Username: ");
         //pick up username
-        System.out.print("• Password: ");
+        System.out.print("- Password: ");
         //pick up password
 
         // see Learn the Part for the remaining instructions.
         scan.close();
-
         
     }
 }
