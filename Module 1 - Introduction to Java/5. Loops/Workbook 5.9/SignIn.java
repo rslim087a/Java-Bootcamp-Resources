@@ -16,6 +16,18 @@ public class SignIn {
         //pick up password
 
         // see Learn the Part for the remaining instructions.
+        
+        
+        /* will be useful for task 2
+        
+            System.out.println("\nIncorrect, please try again!\n");
+            System.out.print("- Username: ");
+            usernameEntry = scan.nextLine();
+            System.out.print("- Password: ");
+            passwordEntry = scan.nextLine();
+
+        
+        */
         scan.close();
         
     }
