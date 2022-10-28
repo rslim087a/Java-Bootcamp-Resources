@@ -6,10 +6,6 @@ public class Doubles {
         int dice1;
         int dice2;
 
-   //      System.out.println("Dice 1: " + dice1);
-   //      System.out.println("Dice 2: " + dice2 + "\n");
-
-
 
     }
 
