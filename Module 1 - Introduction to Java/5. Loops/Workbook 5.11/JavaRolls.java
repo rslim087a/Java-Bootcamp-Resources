@@ -5,6 +5,7 @@ public class JavaRolls {
         Scanner scan = new Scanner(System.in);
         // See Learn the Part for detailed instructions.
         
+        int diceRoll;
         int score = 0;
 
     }
