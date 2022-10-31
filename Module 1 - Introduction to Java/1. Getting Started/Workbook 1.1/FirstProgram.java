@@ -1,11 +1,2 @@
-// TASK 1: Make a class.
-
-
-
-// TASK 2: Inside the class, write the main() method.
-
-
-// TASK 3: Print these messages to the console: "Printing is fun!" 
-                                              // "Java > Python."
-                                              // "I spilled Java all over my paper."
-                                              // "My dog ate my Java." 
+// I'm a comment. I have no impact on your code.
+// Instructions for this workbook are on Learn the Part: (See the Udemy Video: Workbook 1.1 to access the link).
