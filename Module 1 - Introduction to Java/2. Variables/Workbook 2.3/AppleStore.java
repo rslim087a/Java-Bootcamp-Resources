@@ -4,7 +4,7 @@ public class AppleStore {
         int numOfCustomers = 0;
         double profit = 0;
 
-         //See Learn the Part for the complete instructions (link in resources folder of Udemy video).  
+        // Instructions for this workbook are on Learn the Part: (See the Udemy Video: Workbook 2.3 to access the link).
 
 
         System.out.println("You picked 500 apples from an apple orchard");
@@ -32,8 +32,7 @@ public class AppleStore {
         System.out.println("<number of customers> + customers love your apples.");
         System.out.println("You have <number of apples> apples left. We'll sell more tomorrow!");
 
-
-
+         //Compare your result to what's on Learn the Part.
 
     }
 
