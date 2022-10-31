@@ -1,5 +1,5 @@
 public class YourInitials {
     public static void main(String[] args) {
-         //See Learn the Part for the instructions.
+         // Instructions for this workbook are on Learn the Part: (See the Udemy Video: Your Initials to access the link).
     }
 }
