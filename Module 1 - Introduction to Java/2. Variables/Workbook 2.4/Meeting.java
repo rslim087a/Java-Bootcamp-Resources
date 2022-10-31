@@ -1,7 +1,7 @@
 public class Meeting {
     public static void main(String[] args) {
         
-         //See Learn the Part for the complete instructions.
+        // Instructions for this workbook are on Learn the Part: (See the Udemy Video: Workbook 2.4 to access the link).
 
         double sales = 24309.65; 
         double profit = 18562.18; 
