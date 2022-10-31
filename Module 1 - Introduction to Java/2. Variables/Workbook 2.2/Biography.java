@@ -1,22 +1,23 @@
 public class Biography {
     public static void main(String[] args) {
         
-         //See Learn the Part for the complete instructions (link in resources folder of Udemy video).  
+        // Instructions for this workbook are on Learn the Part: (See the Udemy Video: Workbook 2.2 to access the link).
 
 
-        //make a name variable
-        //make an age variable
-        //make a country variable
-        //make a sport variable
-        //make an hours variable
-        //make a game variable
-        //make a subject variable
-        //make a grade variable
+        // name (text)
+        // age (whole number)
+        // country (text)
+        // sport (text)
+        // hours (whole number)
+        // game (text)
+        // subject (text)
+        // grade (character)
      
         System.out.println("My name is <name>. I'm <age> years old, and I'm from <country> ");
         System.out.println("My favourite sport is <sport>. I play for <hours> hours a day");
         System.out.println("When I'm tired, I like to play <game>.");
         System.out.println("In school, my favourite subject was <subject>, I scored a <grade>.");
 
+        // Compare your result to what's on Learn the Part.
     }
 }
