@@ -6,34 +6,23 @@ public class AppleStore {
 
         // Instructions for this workbook are on Learn the Part: (See the Udemy Video: Workbook 2.3 to access the link).
 
-
         System.out.println("You picked 500 apples from an apple orchard");
-        //Update number of apples.
         
         System.out.println("Time for business! You're selling each apple for 40 cents");
-        //Make a price variable. Set it equal to 40 cents. 
 
         System.out.println("One customer walked in. He bought 4 apples!");
-        //Update number of apples.
-        //Update number of customers;
-        //Update profit
 
         System.out.println("Another customer walked in. He bought 20 apples!");
-        //Update number of apples;
-        //Update number of customers;
-        //Update profit
 
         System.out.println("Another customer walked in. She bought 200 apples!");
-        //Update number of apples;
-        //Update number of customers;
-        //Update profit
+        
 
         System.out.println("Wow! So far, you made: $<profit>");
         System.out.println("<number of customers> + customers love your apples.");
-        System.out.println("You have <number of apples> apples left. We'll sell more tomorrow!");
+        System.out.println("You have <number of apples> apples left.");
 
-         //Compare your result to what's on Learn the Part.
-
+        // Compare your result to what's on Learn the Part.  
+        
     }
 
 }
