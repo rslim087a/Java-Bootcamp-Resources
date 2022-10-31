@@ -1,7 +1,7 @@
 public class Biography {
     public static void main(String[] args) {
         
-        // Instructions for this workbook are on Learn the Part: (See the Udemy Video: Workbook 2.2 to access the link).
+        // Instructions for this workbook are on Learn the Part (see the Udemy Video: Workbook 2.2 to access the link).
 
 
         // name (text)
