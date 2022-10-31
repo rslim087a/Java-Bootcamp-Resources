@@ -1,7 +1,7 @@
 public class Points {
     public static void main(String[] args) {
         
-         //See Learn the Part for the complete instructions.
+        // Instructions for this workbook are on Learn the Part: (See the Udemy Video: Workbook 2.1 to access the link).
 
         int points = 0;
 
@@ -14,9 +14,10 @@ public class Points {
         System.out.println("Ron won the underground chess game. 100 points for Gryffindor");
         //update points here
         System.out.println("Harry defeated Quirrell. 60 points for Gryffindor");
-        //update points here
-
-        //Print the variable
+        //update points here        
+        
+        // Compare your result to what's on Learn the Part.
+        
     }
 }
 
