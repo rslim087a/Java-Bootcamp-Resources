@@ -11,5 +11,7 @@ public class Exams {
         System.out.println("<student at index 3>, you will take seat " + 3);
         System.out.println("<student at index 4>, you will take seat " + 4);
 
+        // Compare your result to what's on Learn the Part.
+
     }
 }
