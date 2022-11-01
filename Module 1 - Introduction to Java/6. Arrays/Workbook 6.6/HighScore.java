@@ -16,8 +16,9 @@ public class HighScore {
         }
         
        
-        // TODO : See instructions on Learn the Part (Workbook 6.6)
         System.out.println(" - After obtaining the highest score, print: The highest score is:  " + highScore + ". Impressive!");
+        
+        // TODO : See instructions on Learn the Part (Workbook 6.6)
         System.out.println(" - It's the gentleman in seat: <index>. Give that man a cookie!");
 
     }
