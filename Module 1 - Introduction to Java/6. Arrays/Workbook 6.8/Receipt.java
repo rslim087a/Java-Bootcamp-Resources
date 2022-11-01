@@ -1,17 +1,11 @@
-import java.util.Arrays;
-
 public class Receipt {
     public static void main(String[] args) {
 
-        //Task 1: Create two arrays (see Workbook article)
 
         System.out.println("Here's your receipt:\n");
-        /* Task 2
-            Use a for loop to print each apple and the corresponding price.
-            
-            for {
-                println(\t<apple i >: $<price i >)
-            }
-        */
+        
+        // See instructions on Learn the Part (Workbook 6.8)
+        
+        System.out.println("\t<apple i >: $<price i >") // to be used in for loop.
     }
 }
