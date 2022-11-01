@@ -10,9 +10,6 @@ public class PizzaDelivery {
         System.out.println("Great, enter each toppping!");
 
         System.out.println("\nThank you! Here are the toppings your ordered");
-        System.out.println("\nPress anything to confirm your order.");
-        System.out.println("Great, a driver is on the way!");
-        
         scan.close();
 
 
