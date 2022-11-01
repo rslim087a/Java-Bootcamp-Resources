@@ -11,7 +11,7 @@ public class PizzaDelivery {
         int numToppings = scan.nextInt(); 
         scan.nextLine(); // Throwaway nextLine() to avoid nextLine() trap. Since it comes after nextInt(), it will just get skipped anyway.
         
-        System.out.println("Great, enter each toppping!");
+        System.out.println("Great, enter each topping!");
         
         String[] toppings = new String[numToppings]; // Length of array equals what the user inputs.
         
