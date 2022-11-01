@@ -1,7 +1,7 @@
 public class Exams {
     public static void main(String[] args) {
 
-        // Instructions for this workbook are on Learn the Part (See the Udemy Video: Workbook 6.1 to access the link).
+        // Instructions for this workbook are on Learn the Part (Workbook 6.1).
 
         System.out.println("It's time to take your 5th year exams. Please, take your seats.\n");
         
