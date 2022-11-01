@@ -5,7 +5,7 @@ public class HighScore {
 
         System.out.println("Here are the scores + <score elements>");
 
-        System.out.println("\n\nThe highest score is: <highScore>. Give that man a cookie!");
+        System.out.println("\n\nThe highest score is: " + highScore + ". Give that man a cookie!");
         
     }    
 
