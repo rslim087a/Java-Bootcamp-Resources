@@ -1,16 +1,9 @@
 public class Exams {
     public static void main(String[] args) {
         
+        // Instructions for this workbook are on Learn the Part (See the Udemy Video: Workbook 6.2 to access the link).
         System.out.println("It's time to take your 5th years exams. Please, take your seats.\n");
-        //Task 1: Create an array that stores 5 students: "Malfoy", "Crabbe", "Goyle", "Pansy", "Dean"
         
-        /**Task 2: Using a for loop, assign each student a seat according to their index in the array.
-         
-          for  ( ...) { 
-              <student at index i>, you will take seat i
-          }
-         
-         */
-        //    
+        System.out.println("<student at index i>, you will take seat <i>");
     }
 }
