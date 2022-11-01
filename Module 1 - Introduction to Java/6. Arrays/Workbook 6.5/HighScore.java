@@ -3,7 +3,7 @@ public class HighScore {
         
         int highScore = 0;
         
-        // Instructions for this workbook are on Learn the Part (See the Udemy Video: Workbook 6.5 to access the link).
+        // Instructions for this workbook are on Learn the Part (Workbook 6.5).
 
         System.out.println("Here are the scores + <score elements>");
 
