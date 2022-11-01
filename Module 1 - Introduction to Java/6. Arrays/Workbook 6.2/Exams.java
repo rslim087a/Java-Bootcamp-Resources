@@ -5,5 +5,8 @@ public class Exams {
         System.out.println("It's time to take your 5th years exams. Please, take your seats.\n");
         
         System.out.println("<student at index i>, you will take seat <i>");
+        
+        // Compare your result to what's on Learn the Part.
+
     }
 }
