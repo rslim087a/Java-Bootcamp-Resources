@@ -13,7 +13,7 @@ public class PizzaDelivery {
             toppings[i] = scan.nextLine();
         }
 
-        System.out.println("\nThank you! Here are the toppings your ordered");
+        System.out.println("\nThank you! Here are the toppings you ordered");
         for (int i = 0; i < toppings.length; i++) {
             System.out.println(i + ". " + toppings[i]);        
         }
