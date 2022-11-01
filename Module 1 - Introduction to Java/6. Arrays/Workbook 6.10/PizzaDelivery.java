@@ -17,7 +17,7 @@ public class PizzaDelivery {
         
         // Task 1 here
         
-        System.out.println("\nThank you! Here are the toppings your ordered");
+        System.out.println("\nThank you! Here are the toppings you ordered");
         
         // Task 2 here
         
