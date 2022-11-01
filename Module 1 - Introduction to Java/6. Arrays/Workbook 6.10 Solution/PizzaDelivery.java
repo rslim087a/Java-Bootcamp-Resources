@@ -7,7 +7,7 @@ public class PizzaDelivery {
         int numToppings = scan.nextInt(); scan.nextLine();
         String[] toppings = new String[numToppings];
 
-        System.out.println("Great, enter each toppping!");
+        System.out.println("Great, enter each topping!");
         for (int i = 0; i < toppings.length; i++) {
             System.out.print(i + ". ");
             toppings[i] = scan.nextLine();
