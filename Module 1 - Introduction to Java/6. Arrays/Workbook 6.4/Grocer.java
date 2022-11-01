@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Grocer {
     public static void main(String[] args) {
         
-        // Instructions for this workbook are on Learn the Part (See the Udemy Video: Workbook 6.4 to access the link).
+        // Instructions for this workbook are on Learn the Part (Workbook 6.4).
         
         Scanner scan = new Scanner(System.in);        
         
