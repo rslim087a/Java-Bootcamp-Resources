@@ -14,6 +14,8 @@ public class Grocer {
         for (int i = 0; i < store.length; i++) {
             
             // Task 2 here
+            System.out.println("\nWe have that in aisle: <index>");
+
 
         }
         
