@@ -13,7 +13,7 @@ public class Grocer {
         
         for (int i = 0; i < store.length; i++) {
             
-            /* Task 2 here
+            // Task 2 here
 
         }
         
