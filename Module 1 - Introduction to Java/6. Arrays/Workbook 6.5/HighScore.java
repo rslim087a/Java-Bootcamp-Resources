@@ -5,7 +5,7 @@ public class HighScore {
         
         // Instructions for this workbook are on Learn the Part (Workbook 6.5).
 
-        System.out.println("Here are the scores + <score elements>");
+        System.out.print("Here are the scores: <score elements>");
 
         System.out.println("\n\nThe highest score is: " + highScore + ". Give that man a cookie!");
         
