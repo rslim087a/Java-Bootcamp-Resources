@@ -12,10 +12,10 @@ public class HighScore {
         }
         
        
-        System.out.println(" - The highest score is: " + highScore + ". Impressive!");
+        System.out.println("\n\nThe highest score is: " + highScore + ". Impressive!");
         
         // TODO : See instructions on Learn the Part (Workbook 6.6)
-        System.out.println(" - It's the gentleman in seat: <index>. Give that man a cookie!");
+        System.out.println("It's the gentleman in seat: <index>. Give that man a cookie!");
 
     }
     
