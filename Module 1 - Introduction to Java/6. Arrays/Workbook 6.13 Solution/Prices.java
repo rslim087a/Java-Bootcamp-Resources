@@ -10,7 +10,7 @@ public class Prices {
         };
 
 
-        // Task 3 (Updated for Workbook 6.13 Revisit)- Print the prices for each department. Prices should share a single line.  
+        // (Updated for Workbook 6.13 Revisit)- Print the prices for each department. Prices should share a single line.  
         for (int i = 0; i < prices.length; i++) {
             switch (i) {
                 case 0: System.out.print("Baking: "); break;
