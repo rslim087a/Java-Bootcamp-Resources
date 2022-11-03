@@ -1,15 +1,11 @@
 public class HighScore {
     public static void main(String[] args) {
-        int[] scores = {randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(),
-            randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()};
-
-        System.out.print("Here are the scores: ");
-        for (int i = 0; i < scores.length; i++) {
-            System.out.print(scores[i] + " ");
-        }
+        int[] scores = {randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber(), randomNumber()};
         
         int highScore = 0;
+        System.out.print("Here are the scores: ");    
         for (int i = 0; i < scores.length; i++) {
+            System.out.print(scores[i] + " ");
             if (scores[i] > highScore) {
                 highScore = scores[i];
             }
