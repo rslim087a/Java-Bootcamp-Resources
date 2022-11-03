@@ -6,6 +6,6 @@ public class Receipt {
         
         // See instructions on Learn the Part (Workbook 6.8)
         
-        System.out.println("\t<apple i >: $<price i >") // to be used in for loop.
+        System.out.println("\t<apple i >: $<price i >"); // to be used in for loop.
     }
 }
