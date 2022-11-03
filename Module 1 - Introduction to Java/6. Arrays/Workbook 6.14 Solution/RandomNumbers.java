@@ -27,7 +27,7 @@ public class RandomNumbers {
      * @return randomNumber (int)
      * 
      * Inside the function:
-     *    1. return a random number between 1 and 100. 
+     *    1. return a random number between 0 and 99. 
      */
 
     public static int randomNumber() {
