@@ -45,7 +45,7 @@ public class Weather {
     public static void printTemperatures(double[] temp, String type) {
         System.out.print(type + ": ");
         for (int i = 0; i < temp.length; i++) {
-                System.out.print(String.format("%.2f", temp[i]) + " ");
+                System.out.print(temp[i] + " ");
         }
         System.out.print("\n");
     }
