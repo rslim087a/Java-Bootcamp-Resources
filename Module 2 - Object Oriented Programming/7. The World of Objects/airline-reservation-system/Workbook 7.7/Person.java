@@ -25,19 +25,19 @@ public class Person {
     }
     
     public String getName() {
-        return this.name;
+        return name;
     }
  
     public String getNationality() {
-        return this.nationality;
+        return nationality;
     }
  
     public String getDateOfBirth() {
-        return this.dateOfBirth;
+        return dateOfBirth;
     }
  
     public int getSeatNumber() {
-        return this.seatNumber;
+        return seatNumber;
     }
  
     public void setName(String name) {
@@ -57,30 +57,21 @@ public class Person {
     }
  
     public String[] getPassport() {
-        return Arrays.copyOf(this.passport, this.passport.length);
+        return Arrays.copyOf(passport, passport.length);
     }
     public void setPassport() {
-        this.passport = new String[] {this.name, this.nationality, this.dateOfBirth};
+        this.passport = new String[] {name, nationality, dateOfBirth};
     }
- 
+
+
     public boolean applyPassport() {
-        int number = (int) (Math.random() * 2);  
-        if (number == 0) {
-            return false;
-        } else {
-            return true;
-        }
+        int number = (int) (Math.random() * 2);
+        return number == 1;
     }
- 
+
     public void chooseSeat() {
-        this.seatNumber = (int) (Math.random() * 11 + 1); 
+        seatNumber = ((int) (Math.random() * 11 + 1));
     }
+
  
-    public String toString() {
-        return "Name: " + this.name + "\n"
-        +  "Nationality: " + this.nationality + "\n"
-        +  "Date of Birth: " + this.dateOfBirth + "\n"
-        +  "Seat Number: " + this.seatNumber + "\n"
-        +  "Passport: " + Arrays.toString(this.passport) + "\n";
-    }
 }
