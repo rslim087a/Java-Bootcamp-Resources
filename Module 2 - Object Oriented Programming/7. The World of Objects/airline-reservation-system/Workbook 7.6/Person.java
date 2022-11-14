@@ -12,7 +12,6 @@ public class Person {
         this.name = name;
         this.nationality = nationality;
         this.dateOfBirth = dateOfBirth;
-        this.passport = new String[3];
         this.seatNumber = seatNumber;
     }
 
