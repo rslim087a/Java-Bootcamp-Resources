@@ -1,1 +1,1 @@
-## Resources for [The Complete Java Development Bootcamp](https://www.udemy.com/course/the-complete-java-development-bootcamp/?couponCode=LRNTHPRT)
+## Resources for [The Complete Java Development Bootcamp](https://udemy-redirect-app.herokuapp.com/java)
