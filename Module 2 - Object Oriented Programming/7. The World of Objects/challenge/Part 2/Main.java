@@ -24,7 +24,7 @@ public class Main {
     }
 
     public static void printStore() {
-        System.out.println("***********************************IMDB***********************************");
+        System.out.println("********************************MOVIE STORE*******************************");
         System.out.println(store);
     }
 

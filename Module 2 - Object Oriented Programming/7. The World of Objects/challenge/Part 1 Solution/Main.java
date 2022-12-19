@@ -12,7 +12,7 @@ public class Main {
             new Movie("The Lord of the Rings: The Fellowship of the Ring", "DVD", 8.8)
         };
 
-        System.out.println("***********************************IMDB***********************************");
+        System.out.println("********************************MOVIE STORE*******************************");
         for (int i = 0; i < movies.length; i++) {
             System.out.println(movies[i]);
         }

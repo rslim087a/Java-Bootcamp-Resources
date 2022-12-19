@@ -5,7 +5,7 @@ public class Main {
             
         };
 
-        System.out.println("***********************************IMDB***********************************");
+        System.out.println("********************************MOVIE STORE*******************************");
         for (int i = 0; i < movies.length; i++) {
             System.out.println(movies[i]);
         }
