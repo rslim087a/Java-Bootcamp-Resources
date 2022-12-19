@@ -12,7 +12,7 @@ public class Main {
         System.out.print("Your username is currently " + user.getUsername() + ". Please update it here: ");
         user.setUsername(user.getUsername());
         
-        System.out.print("Your age is currently " + 0 + ". Please update it here: ");
+        System.out.print("Your age is currently " + user.getAge() + ". Please update it here: ");
         user.setAge(scanner.nextInt());
         scanner.close();
     }     

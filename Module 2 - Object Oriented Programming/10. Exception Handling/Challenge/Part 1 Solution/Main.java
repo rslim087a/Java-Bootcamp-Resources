@@ -39,7 +39,7 @@ public class Main {
         while (true) {
             System.out.print("\nPlease choose an integer between 0 - 9: ");
 
-            // 1. Anticipate the user entering a String.
+            // 1. Anticipate the user not entering an integer.
 
             int choice = scanner.nextInt();
 
@@ -57,11 +57,11 @@ public class Main {
         while (true) {
             System.out.print("\nSet a new rating for " + name + ": ");
             
-            // 1. Anticipate the user entering a String.
+            // 1. Anticipate the user not entering a double.
 
             double rating = scanner.nextDouble();
             
-            // 2. Anticipate the choice being incorrect.
+            // 2. Anticipate the rating being incorrect.
 
             return rating;
          }
