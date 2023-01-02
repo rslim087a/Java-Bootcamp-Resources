@@ -1,5 +1,0 @@
-During checkout, the app returns a receipt that includes a subtotal, tax, and total.
-The tax rate is 13%.
-
-               Test Cases
-----------------------------------------

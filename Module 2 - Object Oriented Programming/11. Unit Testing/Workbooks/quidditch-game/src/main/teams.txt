@@ -1,2 +1,0 @@
-GRYFFINDOR,Oliver,Harry,Angelina,Ginny,Katie
-SLYTHERIN,Vincent,Draco,Bridget,Harper,Malcolm
