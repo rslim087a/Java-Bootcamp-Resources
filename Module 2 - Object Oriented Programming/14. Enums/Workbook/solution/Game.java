@@ -1,8 +1,9 @@
 import java.time.LocalDate;
 
 import static constants.Position.*;
-
+import java.time.format.DateTimeFormatter;
 import static constants.Regulation.*;
+
 public class Game {
 
     private String arena;
@@ -14,7 +15,8 @@ public class Game {
     }
 
     public void begin(Team home, Team away) {
-        String formattedDate = this.date.getDayOfMonth() + "/" + this.date.getMonthValue() + "/" + this.date.getYear();
+//         String formattedDate = this.date.getDayOfMonth() + "/" + this.date.getMonthValue() + "/" + this.date.getYear();
+        String formattedDate = this.date.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
         System.out.println
         (
             "\n*****************************************************************************" +
