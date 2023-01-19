@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-class Payment {
+public class Payment {
     private LocalDate date;
     private double amount;
   
