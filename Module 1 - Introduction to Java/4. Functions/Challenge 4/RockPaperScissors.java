@@ -69,7 +69,7 @@ public class RockPaperScissors {
      *       Computer: "paper"     You: "rock"
      *       Computer: "scissors"  You: "paper"
      *
-     *   3. Otherwise, the result is "You lose!":
+     *   3. result is "It's a tie" if: Your choice equals computer choice.
      * 
      * 
      *   4. Otherwise, print "INVALID CHOICE" and exit the program.
