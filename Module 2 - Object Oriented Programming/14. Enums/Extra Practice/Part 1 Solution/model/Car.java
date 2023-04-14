@@ -60,8 +60,8 @@ public class Car {
     }
 
     public void setProductionYear(int productionYear) {
-        if (productionYear <= MIN_YEAR) {
-            throw new IllegalArgumentException("Production year must be greater than the minimum year.");
+        if (productionYear < MIN_YEAR) {
+            throw new IllegalArgumentException("Production year must be greater than or equal to the minimum year.");
         }
         this.productionYear = productionYear;
     }
