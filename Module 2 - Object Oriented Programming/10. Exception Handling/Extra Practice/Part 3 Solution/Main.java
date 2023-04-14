@@ -57,7 +57,6 @@ public class Main {
                 continue;
             }
             int issueNumber = scanner.nextInt();
-            scanner.nextLine(); // Consume newline left-over
             if (!incorrectIssueNumber(issueNumber)) {
                 return issueNumber;
             }
@@ -72,7 +71,6 @@ public class Main {
                 continue;
             }
             int publicationYear = scanner.nextInt();
-            scanner.nextLine(); // Consume newline left-over
             if (!incorrectPublicationYear(publicationYear)) {
                 return publicationYear;
             }
