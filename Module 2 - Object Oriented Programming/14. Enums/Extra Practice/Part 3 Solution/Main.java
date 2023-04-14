@@ -31,7 +31,7 @@ public class Main {
     }
 
     public static boolean invalidPrice(double price) {
-        return price < 0 || price > Car.MAX_PRICE;
+        return price < Car.MIN_PRICE || price > Car.MAX_PRICE;
     }
 
     public static boolean invalidBodyType(String bodyType) {
