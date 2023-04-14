@@ -76,8 +76,12 @@ public class Main {
     public static int promptForYear(Scanner scanner) {
         while (true) {
             System.out.print("\nPlease enter a valid production year: ");
+             if (!scanner.hasNextInt()) {
+                scanner.next();
+                continue;
+            }
+
             int year = scanner.nextInt();
-            scanner.nextLine(); // consume the newline character
             if (!invalidYear(year)) {
                 return year;
             }
@@ -87,8 +91,12 @@ public class Main {
     public static double promptForPrice(Scanner scanner) {
         while (true) {
             System.out.print("\nPlease enter a valid car price: ");
+            if (!scanner.hasNextDouble()) {
+                scanner.next();
+                continue;
+            }
             double price = scanner.nextDouble();
-            scanner.nextLine(); // consume the newline character
+
             if (!invalidPrice(price)) {
                 return price;
             }
