@@ -8,6 +8,7 @@ public class Car {
     private double price;
 
     public static final int MIN_YEAR = 1900;
+    public static final double MIN_PRICE = 0;
     public static final double MAX_PRICE = 200_000;
 
     public enum BodyType {
@@ -71,7 +72,7 @@ public class Car {
     }
 
     public void setPrice(double price) {
-        if (price < 0 || price > MAX_PRICE) {
+        if (price < MIN_PRICE || price > MAX_PRICE) {
             throw new IllegalArgumentException("Price must be within a valid range.");
         }
         this.price = price;
