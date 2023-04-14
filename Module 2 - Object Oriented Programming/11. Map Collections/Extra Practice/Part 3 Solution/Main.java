@@ -38,7 +38,6 @@ public class Main {
                 continue;
             }
             int population = scanner.nextInt();
-            scanner.nextLine(); // Consume the newline character
             if (!incorrectPopulation(population)) {
                 return population;
             }
