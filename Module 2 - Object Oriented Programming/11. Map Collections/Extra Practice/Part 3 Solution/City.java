@@ -42,8 +42,8 @@ public class City {
     }
 
     public void setPopulation(long population) {
-        if (population < 0) {
-            throw new IllegalArgumentException("Population must be greater than or equal to 0.");
+        if (population <= 0) {
+            throw new IllegalArgumentException("Population must be greater than 0.");
         }
         this.population = population;
     }
