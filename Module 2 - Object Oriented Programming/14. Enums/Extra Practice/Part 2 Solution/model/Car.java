@@ -80,7 +80,7 @@ public class Car {
     }
 
     public void setPrice(double price) {
-        if (price < 0 || price > MAX_PRICE) {
+        if (price < MIN_PRICE || price > MAX_PRICE) {
             throw new IllegalArgumentException("Price must be within a valid range.");
         }
         this.price = price;
