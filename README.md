@@ -1,1 +1,1 @@
-## Resources for The Java Development Bootcamp
+## Resources for the Java development bootcamp
