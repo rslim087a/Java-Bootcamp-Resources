@@ -1,1 +1,3 @@
-## Resources for the Java Bootcamp
+### Become a Cloud and DevOps Engineer
+
+Visit https://rayanslim.com
